@@ -10,7 +10,6 @@ import { Button } from './button';
 import { useActionState } from 'react';
 import { authenticate } from '../lib/action';
 import { useSearchParams } from 'next/navigation';
-import { State } from '../lib/action';
 
 export default function LoginForm() {
   const searchParams = useSearchParams();
